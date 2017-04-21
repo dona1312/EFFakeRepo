@@ -22,7 +22,7 @@ namespace FakeProject.Models
         public virtual IDbSet<FakeUser> FakeUsers { get; set; }
 
         public ApplicationDbContext()
-            : base("DefaultConnection")
+            : base("DefaultConnection-Prod")
         {
         }
     }
